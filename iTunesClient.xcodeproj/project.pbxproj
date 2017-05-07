@@ -17,6 +17,7 @@
 		9700B88D1EBED82D00ECF886 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B88C1EBED82C00ECF886 /* Album.swift */; };
 		9700B88F1EBEE4B800ECF886 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B88E1EBEE4B800ECF886 /* Songs.swift */; };
 		9700B8911EBEEE5500ECF886 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B8901EBEEE5500ECF886 /* Stub.swift */; };
+		9700B8931EBEF93700ECF886 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B8921EBEF93700ECF886 /* SearchResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9700B88C1EBED82C00ECF886 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		9700B88E1EBEE4B800ECF886 /* Songs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
 		9700B8901EBEEE5500ECF886 /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		9700B8921EBEF93700ECF886 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,6 @@
 				9700B8861EBED67A00ECF886 /* Controllers */,
 				9700B8851EBED67000ECF886 /* Models */,
 				9700B8731EBECD4B00ECF886 /* AppDelegate.swift */,
-				9700B8751EBECD4B00ECF886 /* ViewController.swift */,
 				9700B8771EBECD4B00ECF886 /* Main.storyboard */,
 				9700B87A1EBECD4B00ECF886 /* Assets.xcassets */,
 				9700B87C1EBECD4B00ECF886 /* LaunchScreen.storyboard */,
@@ -92,6 +93,8 @@
 		9700B8861EBED67A00ECF886 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9700B8751EBECD4B00ECF886 /* ViewController.swift */,
+				9700B8921EBEF93700ECF886 /* SearchResultsTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9700B8931EBEF93700ECF886 /* SearchResultsTableViewController.swift in Sources */,
 				9700B88F1EBEE4B800ECF886 /* Songs.swift in Sources */,
 				9700B8891EBED6A800ECF886 /* Artist.swift in Sources */,
 				9700B8761EBECD4B00ECF886 /* ViewController.swift in Sources */,
