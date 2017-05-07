@@ -48,7 +48,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="jCg-PW-wlR">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchResultCell" id="jCg-PW-wlR">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jCg-PW-wlR" id="aj7-e6-hAa">
@@ -58,13 +58,13 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="0M5-H8-aUN" id="OKT-Iz-uyL"/>
                             <outlet property="delegate" destination="0M5-H8-aUN" id="2HQ-iU-h8Y"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Js0-X7-cro"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pIP-uU-beE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="G7p-Fb-TFa" customClass="SearchResultDataSource" customModule="iTunesClient" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="1717.5999999999999" y="138.98050974512745"/>
         </scene>

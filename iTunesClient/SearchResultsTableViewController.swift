@@ -12,6 +12,7 @@ class SearchResultsTableViewController: UITableViewController {
 
     
     let searchController = UISearchController(searchResultsController: nil)
+    let dataSource = SearchResultDataSource()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,8 @@ class SearchResultsTableViewController: UITableViewController {
         tableView.tableHeaderView = searchController.searchBar
         
         searchController.searchResultsUpdater = self
+        
+        tableView.dataSource = dataSource
     }
     
     func dismissSearchResultController(){
@@ -38,6 +41,10 @@ class SearchResultsTableViewController: UITableViewController {
 extension SearchResultsTableViewController : UISearchResultsUpdating {
     
     func updateSearchResults(for searchController: UISearchController) {
+        
+        dataSource.updateDataSource(data: [Stub.artist])
+        
+        tableView.reloadData()
         print(searchController.searchBar.text!)
     }
 }
