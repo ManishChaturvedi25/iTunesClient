@@ -1,5 +1,5 @@
 //
-//  AlbumCellviewModel.swift
+//  AlbumDetailViewModel.swift
 //  iTunesClient
 //
 //  Created by ctsuser1 on 5/7/17.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct AlbumCellViewModel {
+struct AlbumDetailViewModel {
     
     let title:String
     let releaseDate: String
@@ -16,7 +16,7 @@ struct AlbumCellViewModel {
     
 }
 
-extension AlbumCellViewModel {
+extension AlbumDetailViewModel {
     init(album:Album) {
         
         title = album.cencoredName
