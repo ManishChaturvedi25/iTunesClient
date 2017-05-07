@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="1717.5999999999999" y="138.98050974512745"/>
         </scene>
-        <!--Album List Controller Table View Controller-->
+        <!--Album List Controller-->
         <scene sceneID="LHs-G5-WdS">
             <objects>
-                <tableViewController id="KG4-vS-XEI" customClass="AlbumListControllerTableViewController" customModule="iTunesClient" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="KG4-vS-XEI" customClass="AlbumListController" customModule="iTunesClient" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="BUc-qX-vOA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,7 +96,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0WA-CC-eQc">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbumPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="0WA-CC-eQc">
                                             <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="80" id="AJP-ha-vjf"/>
@@ -171,4 +171,7 @@
             <point key="canvasLocation" x="913" y="147"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AlbumPlaceholder" width="100" height="100"/>
+    </resources>
 </document>
