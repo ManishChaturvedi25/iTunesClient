@@ -23,6 +23,8 @@ class SearchResultsTableViewController: UITableViewController {
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(SearchResultsTableViewController.dismissSearchResultController))
         
         tableView.tableHeaderView = searchController.searchBar
+        
+        searchController.searchResultsUpdater = self
     }
     
     func dismissSearchResultController(){
@@ -30,4 +32,12 @@ class SearchResultsTableViewController: UITableViewController {
     }
     
     
+}
+
+
+extension SearchResultsTableViewController : UISearchResultsUpdating {
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        print(searchController.searchBar.text!)
+    }
 }
