@@ -19,6 +19,8 @@
 		9700B8911EBEEE5500ECF886 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B8901EBEEE5500ECF886 /* Stub.swift */; };
 		9700B8931EBEF93700ECF886 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B8921EBEF93700ECF886 /* SearchResultsTableViewController.swift */; };
 		9700B8961EBF079600ECF886 /* SearchResultDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B8951EBF079600ECF886 /* SearchResultDataSource.swift */; };
+		9700B8981EBF786F00ECF886 /* AlbumListControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B8971EBF786F00ECF886 /* AlbumListControllerTableViewController.swift */; };
+		9700B89A1EBF7A9A00ECF886 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700B8991EBF7A9A00ECF886 /* AlbumCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		9700B8901EBEEE5500ECF886 /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 		9700B8921EBEF93700ECF886 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 		9700B8951EBF079600ECF886 /* SearchResultDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultDataSource.swift; sourceTree = "<group>"; };
+		9700B8971EBF786F00ECF886 /* AlbumListControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListControllerTableViewController.swift; sourceTree = "<group>"; };
+		9700B8991EBF7A9A00ECF886 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			children = (
 				9700B8751EBECD4B00ECF886 /* ViewController.swift */,
 				9700B8921EBEF93700ECF886 /* SearchResultsTableViewController.swift */,
+				9700B8971EBF786F00ECF886 /* AlbumListControllerTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 		9700B8871EBED68500ECF886 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9700B8991EBF7A9A00ECF886 /* AlbumCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -195,9 +201,11 @@
 				9700B8891EBED6A800ECF886 /* Artist.swift in Sources */,
 				9700B8761EBECD4B00ECF886 /* ViewController.swift in Sources */,
 				9700B8961EBF079600ECF886 /* SearchResultDataSource.swift in Sources */,
+				9700B8981EBF786F00ECF886 /* AlbumListControllerTableViewController.swift in Sources */,
 				9700B8741EBECD4B00ECF886 /* AppDelegate.swift in Sources */,
 				9700B88B1EBED79C00ECF886 /* Genre.swift in Sources */,
 				9700B88D1EBED82D00ECF886 /* Album.swift in Sources */,
+				9700B89A1EBF7A9A00ECF886 /* AlbumCell.swift in Sources */,
 				9700B8911EBEEE5500ECF886 /* Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -28,6 +28,8 @@ class SearchResultsTableViewController: UITableViewController {
         searchController.searchResultsUpdater = self
         
         tableView.dataSource = dataSource
+        
+        definesPresentationContext = true
     }
     
     func dismissSearchResultController(){
