@@ -65,7 +65,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="KG4-vS-XEI" kind="show" id="JLL-8E-1Yj"/>
+                                    <segue destination="KG4-vS-XEI" kind="show" identifier="showAlbums" id="JLL-8E-1Yj"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -150,7 +150,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W29-8Z-EE0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1711.2" y="813.64317841079469"/>
+            <point key="canvasLocation" x="1729" y="913"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9mb-oD-Cdc">

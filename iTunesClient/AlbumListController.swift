@@ -10,17 +10,26 @@ import UIKit
 
 class AlbumListController: UITableViewController {
 
+    var artist:Artist!
+
+    lazy var dataSource:AlbumListDataSource = {
+        
+       return AlbumListDataSource(albums: self.artist.albums)
+    }()
+    
+    
     
     private struct Constants {
         static let AlbumCellheight : CGFloat = 80
     }
     
-    var artist:Artist!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.title = artist.name
+        
+        self.tableView.dataSource = dataSource
         
     }
 
